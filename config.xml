@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.example.hello" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>HelloWorld</name>
+<widget id="io.cordova.hellocordova" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>Volunteer Bank</name>
     <description>
-        A sample Apache Cordova application that responds to the deviceready event.
+        A Smart Way To Spent Your Money On Charities.
     </description>
     <author email="dev@cordova.apache.org" href="http://cordova.io">
         Apache Cordova Team
@@ -17,9 +17,37 @@
     <allow-intent href="geo:*" />
     <platform name="android">
         <allow-intent href="market:*" />
+    <!--<icon density="ldpi" src="res/icon/android/icon-36-ldpi.png" />-->
+    <!--<icon density="mdpi" src="res/icon/android/icon-48-mdpi.png"/>-->
+   <!-- <icon density="hdpi" src="res/icon/android/icon-72-hdpi.png"/>-->
+   <!-- <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png"/>-->
     </platform>
     <platform name="ios">
         <allow-intent href="itms:*" />
         <allow-intent href="itms-apps:*" />
     </platform>
+    <icon src="icon.png" />
+
+<plugin name="cordova-plugin-battery-status" />
+    <plugin name="cordova-plugin-camera" />
+    <plugin name="cordova-plugin-media-capture" />
+    <plugin name="cordova-plugin-console" />
+    <plugin name="cordova-plugin-contacts" />
+    <plugin name="cordova-plugin-device" />
+   <!--  <plugin name="cordova-plugin-device-motion" />-->
+   <!--  <plugin name="cordova-plugin-device-orientation" />-->
+    <plugin name="cordova-plugin-dialogs" />
+   <!-- <plugin name="cordova-plugin-file" />-->
+   <!--  <plugin name="cordova-plugin-file-transfer" />-->
+    <plugin name="cordova-plugin-geolocation" />
+    <plugin name="cordova-plugin-globalization" />
+    <plugin name="cordova-plugin-inappbrowser" />
+    <plugin name="cordova-plugin-media" />
+    <plugin name="cordova-plugin-network-information" />
+    <plugin name="cordova-plugin-splashscreen" />
+    <plugin name="cordova-plugin-vibration" />
+<!--<plugin name="cordova-plugin-inappbrowser" />-->
+<preference name='phonegap-version' value='cli-7.1.0' />
 </widget>
+
+
